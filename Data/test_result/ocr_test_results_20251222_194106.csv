@@ -1,0 +1,2 @@
+﻿image_path,predict,label
+test_data/test_image\baby_C03D0753E_1.png,"{""sender_name"": ""신동욱"", ""sender_bank"": ""신한은행"", ""receiver_bank"": ""농협"", ""receiver_account"": ""301-1234-5678-91"", ""receiver_owner"": ""베이비맘"", ""amount"": ""232,769"", ""date"": ""2025-12-12"", ""time"": ""17:08:12""}","{""sender_name"": ""신동욱"", ""sender_bank"": null, ""receiver_bank"": ""농협"", ""receiver_account"": ""301-1234-5678-91"", ""receiver_owner"": ""베이비맘"", ""amount"": ""232,769원"", ""date"": ""2025-12-12"", ""time"": ""17:08:12""}"

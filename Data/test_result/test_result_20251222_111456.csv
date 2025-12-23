@@ -1,0 +1,136 @@
+﻿no,order,turn,predict,label,correct_score
+1,"User: 주문합니다!
+Agent: 무엇을 주문하시겠어요? 상품 번호와 수량을 알려주세요.
+User: 이름: 윤기율
+Agent: Error: An error occurred during processing.
+User: 연락처: 010-3958-5630
+Agent: Error: An error occurred during processing.
+User: 주소: 부산광역시 해운대구 중앙로 833 333동 620호
+Agent: Error: An error occurred during processing.
+User: 상품: 1번(유자) 3개
+Agent: Error: An error occurred during processing.
+User: 입금자명: 이혜찬
+Agent: 주문자 이름과 입금자명이 다르네요. 혹시 다른 분 성함으로 주문하신 건가요?
+User: 배송일: 오늘
+Agent: Error: An error occurred during processing.",7,"{
+  ""items"": [
+    {
+      ""quantity"": 3,
+      ""unit"": ""개"",
+      ""product_name"": ""수제 차(유자)""
+    }
+  ],
+  ""customer_name"": ""윤기율"",
+  ""contact_number"": ""010-3958-5630"",
+  ""delivery_address"": ""부산광역시 해운대구 중앙로 833 333동 620호"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": null,
+  ""payment_info"": null
+}","{
+  ""items"": [
+    {
+      ""quantity"": 3,
+      ""unit"": ""개"",
+      ""product_name"": ""1번 수제 차(유자/생강) 500g (유자/생강)""
+    },
+  ],
+  ""customer_name"": ""윤기율"",
+  ""contact_number"": ""010-3958-5630"",
+  ""delivery_address"": ""부산광역시 해운대구 중앙로 833 333동 620호"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""expected_amount"": 53700
+}",0.83
+2,"User: 으뜸효율 10% 환급 혜택 때문에 328L 3도어 스탠드김치(147만) 신청해요.
+Agent: 네, 328L 3도어 스탠드김치 모델로 주문하시겠군요. 바로 주문을 도와드리겠습니다. 혹시 성함과 연락처, 배송받으실 주소, 희망 배송 날짜를 알려주시겠어요?
+User: 이름 이알뜰, 010-9876-5432, 제주시 노형로 5길 15입니다. 지금 사야 제일 저렴하죠? 오늘 배달해주세요
+Agent: Error: An error occurred during processing.",2,"{
+  ""items"": [
+    {
+      ""quantity"": 1,
+      ""unit"": ""대"",
+      ""product_name"": ""328L 3도어 스탠드김치""
+    }
+  ],
+  ""customer_name"": ""이알뜰"",
+  ""contact_number"": ""010-9876-5432"",
+  ""delivery_address"": ""제주시 노형로 5길 15"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": null,
+  ""payment_info"": null
+}","{
+  ""items"": [
+    {
+      ""quantity"": 1,
+      ""unit"": ""대"",
+      ""product_name"": ""328L 3도어 스탠드김치""
+    },
+  ],
+  ""customer_name"": ""이알뜰"",
+  ""contact_number"": ""010-9876-5432"",
+  ""delivery_address"": ""제주시 노형로 5길 15"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""expected_amount"": 1470000
+}",0.83
+3,"User: 권윤율입니다. 주문하고 싶어요
+Agent: 안녕하세요, 권윤율님. 어떤 상품을 주문하시겠어요? 상품 번호와 수량을 알려주세요.
+User: 주소: 경상남도 창원시 성산구 중문관광로 185 1875동 918호
+Agent: 경상남도 창원시 성산구 중문관광로 185 1875동 918호로 배송될 예정입니다. 맞으신가요? 혹시 성함과 연락처도 알려주시겠어요?
+User: 연락처: 010-6385-2056
+Agent: 네, 연락처는 010-6385-2056 이시군요. 주문하실 상품은 어떤 건가요?
+User: 주문: 2번 2개, 1번 2개, 3번(매운맛) 1개, 오늘 배송해주세요.
+Agent: Error: An error occurred during processing.
+User: (부재 시 문앞 부탁드려요.)
+Agent: Error: An error occurred during processing.",5,"{
+  ""items"": [
+    {
+      ""quantity"": 2,
+      ""unit"": ""개"",
+      ""product_name"": ""수제 딸기잼 2병""
+    },
+    {
+      ""quantity"": 2,
+      ""unit"": ""개"",
+      ""product_name"": ""주방칼 2종 세트""
+    },
+    {
+      ""quantity"": 1,
+      ""unit"": ""개"",
+      ""product_name"": ""낙곱새 밀키트(2인) (매운맛)""
+    }
+  ],
+  ""customer_name"": ""권윤율"",
+  ""contact_number"": ""010-6385-2056"",
+  ""delivery_address"": ""경상남도 창원시 성산구 중문관광로 185 1875동 918호"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": ""(부재 시 문앞 부탁드려요.)"",
+  ""payment_info"": null
+}","{
+  ""items"": [
+    {
+      ""quantity"": 2,
+      ""unit"": ""개"",
+      ""product_name"": ""1번 주방칼 2종 세트""
+    },
+    {
+      ""quantity"": 2,
+      ""unit"": ""개"",
+      ""product_name"": ""2번 수제 딸기잼 2병""
+    },
+    {
+      ""quantity"": 1,
+      ""unit"": ""개"",
+      ""product_name"": ""3번 낙곱새 밀키트(2인) (매운맛)""
+    }
+  ],
+  ""customer_name"": ""권윤율"",
+  ""contact_number"": ""010-6385-2056"",
+  ""delivery_address"": ""경상남도 창원시 성산구 중문관광로 185 1875동 918호"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": (부재 시 문앞 부탁드려요.),
+  ""payment_info"": null,
+  ""expected_amount"": 111200
+}",0.83

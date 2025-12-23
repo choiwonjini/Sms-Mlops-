@@ -1,0 +1,33 @@
+{
+  "items": [
+    {
+      "product_name": "1번 주방칼 2종 세트",
+      "unit": "개",
+      "unit_price": 35700,
+      "quantity": 2,
+      "subtotal": 71400
+    },
+    {
+      "product_name": "2번 수제 딸기잼 2병"
+      "unit": "개",
+      "unit_price": 10600,
+      "quantity": 2,
+      "subtotal": 21200
+    },
+    {
+      "product_name": "3번 낙곱새 밀키트(2인) (매운맛)"
+      "unit": "개",
+      "unit_price": 18600,
+      "quantity": 1,
+      "subtotal": 18600
+    }
+  ],
+  "customer_name": "권윤율",
+  "contact_number": "010-6385-2056",
+  "delivery_address": "경상남도 창원시 성산구 중문관광로 185 1875동 918호",
+  "desired_delivery_date": "2025-12-22",
+  "special_requests": (부재 시 문앞 부탁드려요.),
+  "payment_info": null,
+  "order_date": "2025-12-22",
+  "expected_amount": 111200
+}

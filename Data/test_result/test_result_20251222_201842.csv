@@ -1,0 +1,39 @@
+﻿no,order,turn,item_count,predict,label,correct_score
+1,ERROR,0,1,'DummyPriceVerifier' object has no attribute 'reset',"{
+  ""items"": [
+    {
+      ""product_name"": ""6번 쿠션팩트 (21호)"",
+      ""unit"": ""개"",
+      ""unit_price"": 35000,
+      ""quantity"": 1,
+      ""subtotal"": 35000
+    }
+  ],
+  ""customer_name"": ""김민준"",
+  ""contact_number"": ""010-2824-1409"",
+  ""delivery_address"": ""인천시 연수구 송도동 333-44 송도더샵 404동 1801호"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": ""배송 전 연락주세요"",
+  ""payment_info"": null,
+  ""order_date"": ""2025-12-22"",
+  ""expected_amount"": 35000
+}",0.0
+2,ERROR,0,1,'DummyPriceVerifier' object has no attribute 'reset',"{
+  ""items"": [
+    {
+      ""product_name"": ""6번 쿠션팩트 (23호)"",
+      ""unit"": ""개"",
+      ""unit_price"": 35000,
+      ""quantity"": 3,
+      ""subtotal"": 105000
+    }
+  ],
+  ""customer_name"": ""이미영"",
+  ""contact_number"": ""010-4582-4811"",
+  ""delivery_address"": ""경기도 수원시 영통구 매탄동 345-67 매탄위브 202동 1301호"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": ""문앞에 놔주세요"",
+  ""payment_info"": null,
+  ""order_date"": ""2025-12-22"",
+  ""expected_amount"": 105000
+}",0.0

@@ -1,0 +1,205 @@
+﻿no,order,turn,item_count,predict,label,correct_score
+1,"User: 주문합니다!
+Agent: 안녕하세요! 뷰티하우스 공동구매에 참여해주셔서 감사합니다. 주문을 위해 몇 가지 정보를 여쭤봐도 될까요?
+성함, 주소, 연락처, 상품 번호와 수량을 알려주시면 됩니다.
+User: 이름: 김민준
+Agent: 김민준 님, 주문을 위해 주소와 연락처, 상품 번호와 수량을 알려주세요.
+User: 연락처: 010-2824-1409
+Agent: 김민준 님, 연락처가 확인되었습니다. 주문을 위해 주소와 상품 번호와 수량을 알려주세요.
+User: 주소: 인천시 연수구 송도동 333-44 송도더샵 404동 1801호
+Agent: 김민준 님, 주소가 확인되었습니다. 이제 상품 번호와 수량을 알려주세요.
+User: 상품: 6번(21호) 1개
+Agent: 김민준 님, 6번 쿠션팩트 (21호) 1개 주문이 맞으실까요? 혹시 다른 상품은 더 필요하신가요?
+User: 배송 전 연락주세요
+Agent: 김민준 님, 주문 내역은 6번 쿠션팩트 (21호) 1개이며, 배송 전에 연락을 드리는 것으로 하겠습니다. 총 금액은 35,000원입니다.
+
+현재 평일 오후 2시 이전 입금 확인 시 당일 발송이 가능합니다. 혹시 원하시는 배송 날짜가 있으신가요? 없다면 오늘 주문하시면 오늘 발송될 예정입니다. 괜찮으신가요?
+User: 네
+Agent: 오늘 주문하시면 오늘 발송될 예정입니다. 주문 확인되시면 입금 계좌 국민 123-456-789012 (뷰티하우스)로 35,000원 입금해주시면 됩니다. 입금 확인 후 발송해드리겠습니다. 괜찮으신가요?",7,1,"{
+  ""items"": [
+    {
+      ""product_name"": ""6번 쿠션팩트 (21호)"",
+      ""unit"": ""개"",
+      ""unit_price"": 35000,
+      ""quantity"": 1,
+      ""subtotal"": 35000
+    }
+  ],
+  ""customer_name"": ""김민준"",
+  ""contact_number"": ""010-2824-1409"",
+  ""delivery_address"": ""인천시 연수구 송도동 333-44 송도더샵 404동 1801호"",
+  ""desired_delivery_date"": null,
+  ""special_requests"": ""배송 전 연락주세요"",
+  ""payment_info"": null,
+  ""order_date"": ""2025-12-22"",
+  ""expected_amount"": 35000
+}","{
+  ""items"": [
+    {
+      ""product_name"": ""6번 쿠션팩트 (21호)"",
+      ""unit"": ""개"",
+      ""unit_price"": 35000,
+      ""quantity"": 1,
+      ""subtotal"": 35000
+    }
+  ],
+  ""customer_name"": ""김민준"",
+  ""contact_number"": ""010-2824-1409"",
+  ""delivery_address"": ""인천시 연수구 송도동 333-44 송도더샵 404동 1801호"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": ""배송 전 연락주세요"",
+  ""payment_info"": null,
+  ""order_date"": ""2025-12-22"",
+  ""expected_amount"": 35000
+}",0.83
+2,ERROR,0,1,Object of type MagicMock is not JSON serializable,"{
+  ""items"": [
+    {
+      ""product_name"": ""6번 쿠션팩트 (23호)"",
+      ""unit"": ""개"",
+      ""unit_price"": 35000,
+      ""quantity"": 3,
+      ""subtotal"": 105000
+    }
+  ],
+  ""customer_name"": ""이미영"",
+  ""contact_number"": ""010-4582-4811"",
+  ""delivery_address"": ""경기도 수원시 영통구 매탄동 345-67 매탄위브 202동 1301호"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": ""문앞에 놔주세요"",
+  ""payment_info"": null,
+  ""order_date"": ""2025-12-22"",
+  ""expected_amount"": 105000
+}",0.0
+3,"User: 안녕하세요~ 7번(레드) 2개 주문할게요
+Agent: 네, 7번 립스틱 (레드) 2개 주문 접수되었습니다. 주문을 위해 몇 가지 추가 정보를 여쭤봐도 될까요?
+User: 정태현 / 010-3615-7924
+Agent: 정태현 고객님, 연락처는 010-3615-7924로 등록되었습니다. 배송받으실 주소를 알려주시겠어요?
+User: 광주시 서구 치평동 555-66 치평현대 101동 601호
+Agent: 정태현 고객님의 주문 내역은 7번 립스틱 (레드) 2개이며, 배송 주소는 광주시 서구 치평동 555-66 치평현대 101동 601호입니다. 총 금액은 50,000원입니다. 평일 오후 2시 이전 입금 확인 시 당일 발송됩니다. 주문 마감일은 2025년 12월 29일 18시입니다.
+
+혹시 선물 포장을 원하시거나 샘플 요청 있으신가요?
+
+User: 택배함에 넣어주세요
+Agent: 정태현 고객님, 7번 립스틱 (레드) 2개 주문해주셨고, 배송 주소는 광주시 서구 치평동 555-66 치평현대 101동 601호, 요청사항은 택배함 배송입니다. 총 금액은 50,000원입니다.
+
+이 주문대로 진행해도 될까요?
+
+User: 입금자명: 정수진
+Agent: 주문 확인되시면 최종 주문 확정 후 입금 안내 드리겠습니다.
+
+User: 네
+Agent: 주문이 확정되었습니다. 입금 계좌는 국민 123-456-789012 (뷰티하우스) 입니다. 금액은 총 50,000원 입니다. 입금 후 이체 확인증이나 캡처 이미지를 보내주세요.",6,1,"{
+  ""items"": [
+    {
+      ""product_name"": ""7번 립스틱 (레드)"",
+      ""unit"": ""개"",
+      ""unit_price"": 25000,
+      ""quantity"": 2,
+      ""subtotal"": 50000
+    }
+  ],
+  ""customer_name"": ""정태현"",
+  ""contact_number"": ""010-3615-7924"",
+  ""delivery_address"": ""광주시 서구 치평동 555-66 치평현대 101동 601호"",
+  ""desired_delivery_date"": null,
+  ""special_requests"": ""택배함에 넣어주세요"",
+  ""payment_info"": null,
+  ""order_date"": ""2025-12-22"",
+  ""expected_amount"": 50000
+}","{
+  ""items"": [
+    {
+      ""product_name"": ""7번 립스틱 (레드)"",
+      ""unit"": ""개"",
+      ""unit_price"": 25000,
+      ""quantity"": 2,
+      ""subtotal"": 50000
+    }
+  ],
+  ""customer_name"": ""정태현"",
+  ""contact_number"": ""010-3615-7924"",
+  ""delivery_address"": ""광주시 서구 치평동 555-66 치평현대 101동 601호"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": ""택배함에 넣어주세요"",
+  ""payment_info"": null,
+  ""order_date"": ""2025-12-22"",
+  ""expected_amount"": 50000
+}",0.83
+4,"User: 안녕하세요~ 1번 2개, 5번 3개 주문할게요
+Agent: 주문 감사합니다! 성함, 주소, 연락처를 알려주세요.
+User: 황보람 / 010-5333-1711
+Agent:  주소를 알려주시겠어요?
+User: 경기도 성남시 분당구 정자동 234-56 정자파크 101동 2001호
+Agent: 황보람님, 1번 수분크림 50ml 2개, 5번 선크림 50ml 3개, 총 130,000원입니다. 배송은 평일 오후 2시 이전 입금 확인 시 당일 발송됩니다. 맞으신가요?
+User: 네
+Agent: 주문이 확정되었습니다. 입금 계좌는 국민 123-456-789012 (뷰티하우스) 입니다. 금액은 총 130,000원 입니다. 입금 후 이체 확인증이나 캡처 이미지를 보내주세요.",4,2,"{
+  ""items"": [
+    {
+      ""product_name"": ""수분크림 50ml"",
+      ""unit"": ""개"",
+      ""unit_price"": 32000,
+      ""quantity"": 2,
+      ""subtotal"": 64000
+    },
+    {
+      ""product_name"": ""선크림 50ml"",
+      ""unit"": ""개"",
+      ""unit_price"": 22000,
+      ""quantity"": 3,
+      ""subtotal"": 66000
+    }
+  ],
+  ""customer_name"": ""황보람"",
+  ""contact_number"": ""010-5333-1711"",
+  ""delivery_address"": ""경기도 성남시 분당구 정자동 234-56 정자파크 101동 2001호"",
+  ""desired_delivery_date"": null,
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""order_date"": ""2025-12-22"",
+  ""expected_amount"": 130000
+}","{
+  ""items"": [
+    {
+      ""product_name"": ""1번 수분크림 50ml"",
+      ""unit"": ""개"",
+      ""unit_price"": 32000,
+      ""quantity"": 2,
+      ""subtotal"": 64000
+    },
+    {
+      ""product_name"": ""5번 선크림 50ml"",
+      ""unit"": ""개"",
+      ""unit_price"": 22000,
+      ""quantity"": 3,
+      ""subtotal"": 66000
+    }
+  ],
+  ""customer_name"": ""황보람"",
+  ""contact_number"": ""010-5333-1711"",
+  ""delivery_address"": ""경기도 성남시 분당구 정자동 234-56 정자파크 101동 2001호"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""order_date"": ""2025-12-22"",
+  ""expected_amount"": 130000
+}",0.83
+5,ERROR,0,1,Object of type MagicMock is not JSON serializable,"{
+  ""items"": [
+    {
+      ""product_name"": ""7번 립스틱 (코랄)"",
+      ""unit"": ""개"",
+      ""unit_price"": 25000,
+      ""quantity"": 1,
+      ""subtotal"": 25000
+    }
+  ],
+  ""customer_name"": ""박지호"",
+  ""contact_number"": ""010-2139-1750"",
+  ""delivery_address"": ""대구시 수성구 범어동 111-22 범어자이 303동 901호"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": ""택배함에 넣어주세요"",
+  ""payment_info"": null,
+  ""order_date"": ""2025-12-22"",
+  ""expected_amount"": 25000
+}",0.0

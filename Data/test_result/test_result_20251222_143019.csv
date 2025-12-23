@@ -1,0 +1,152 @@
+﻿no,order,turn,item_count,predict,label,correct_score
+1,"User: 주문합니다!
+Agent: 무엇을 주문하시겠어요? 상품 번호와 수량을 말씀해주세요.
+User: 이름: 윤기율
+Agent: 윤기율 님, 주문을 받겠습니다. 어떤 상품을 원하시나요?
+User: 연락처: 010-3958-5630
+Agent: 연락처가 등록되었습니다. 어떤 상품을 주문하시겠어요?
+User: 주소: 부산광역시 해운대구 중앙로 833 333동 620호
+Agent: 주소가 등록되었습니다. 어떤 상품을 주문하시겠어요?
+User: 상품: 1번(유자) 3개
+Agent: 1번 수제 차 500g (유자) 3개 주문이 완료되었습니다. 총 53,700원입니다. 배송은 12월 21일(토)부터 12월 23일(월) 사이에 진행됩니다. 이 주문이 맞습니까?
+
+User: 입금자명: 이혜찬
+Agent: 입금자명은 주문 확인과는 관련이 없습니다. 주문 내용이 맞는지 확인해주시면 됩니다. 1번 수제 차 500g (유자) 3개, 총 53,700원이며, 배송은 12월 21일(토)부터 12월 23일(월) 사이에 진행됩니다. 이 주문이 맞습니까?
+
+User: 배송일: 오늘
+Agent: 죄송합니다, 배송 날짜는 12월 21일(토)부터 12월 23일(월) 사이로 지정되어 있습니다. 오늘 배송은 어렵습니다. 1번 수제 차 500g (유자) 3개, 총 53,700원이며, 배송은 12월 21일(토)부터 12월 23일(월) 사이에 진행됩니다. 이 주문이 맞습니까?",7,0,"{
+  ""items"": [
+    {
+      ""product_name"": ""1번 수제 차 500g (유자/생강)"",
+      ""unit"": ""개"",
+      ""unit_price"": 17900,
+      ""quantity"": 3,
+      ""subtotal"": 53700
+    }
+  ],
+  ""customer_name"": ""윤기율"",
+  ""contact_number"": ""010-3958-5630"",
+  ""delivery_address"": ""부산광역시 해운대구 중앙로 833 333동 620호"",
+  ""desired_delivery_date"": null,
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""order_date"": ""2025-12-22"",
+  ""expected_amount"": 53700
+}","{
+  ""items"": [
+    {
+      ""product_name"": ""1번 수제 차(유자) 500g (유자)"",
+      ""unit"": ""개"",
+      ""unit_price"": 17900,
+      ""quantity"": 3,
+      ""subtotal"": 53700
+    }
+  ],
+  ""customer_name"": ""윤기율"",
+  ""contact_number"": ""010-3958-5630"",
+  ""delivery_address"": ""부산광역시 해운대구 중앙로 833 333동 620호"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""order_date"": ""2025-12-22"",
+  ""expected_amount"": 53700
+}",0.67
+2,"User: 으뜸효율 10% 환급 혜택 때문에 328L 3도어 스탠드김치(147만) 신청해요.
+Agent: 주문 접수되었습니다. 혹시 성함과 연락처, 배송 주소를 알려주시겠어요?
+User: 이름 이알뜰, 010-9876-5432, 제주시 노형로 5길 15입니다. 지금 사야 제일 저렴하죠? 오늘 배달해주세요
+Agent: 이알뜰 고객님, 328L 3도어 스탠드김치 1대, 배송 주소는 제주시 노형로 5길 15, 연락처는 010-9876-5432, 배송 희망 날짜는 오늘(2025년 12월 22일)입니다. 확인 후 결제를 진행해도 될까요?",2,0,"{
+  ""items"": [
+    {
+      ""product_name"": ""328L 3도어 스탠드김치"",
+      ""unit"": ""대"",
+      ""unit_price"": 1470000,
+      ""quantity"": 1,
+      ""subtotal"": 1470000
+    }
+  ],
+  ""customer_name"": ""이알뜰"",
+  ""contact_number"": ""010-9876-5432"",
+  ""delivery_address"": ""제주시 노형로 5길 15"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""order_date"": ""2025-12-22"",
+  ""expected_amount"": 1470000
+}","{
+  ""items"": [
+    {
+      ""product_name"": ""328L 3도어 스탠드김치"",
+      ""unit"": ""대"",
+      ""unit_price"": 1470000,
+      ""quantity"": 1,
+      ""subtotal"": 1470000
+    }
+  ],
+  ""customer_name"": ""이알뜰"",
+  ""contact_number"": ""010-9876-5432"",
+  ""delivery_address"": ""제주시 노형로 5길 15"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": null,
+  ""payment_info"": null,
+  ""order_date"": ""2025-12-22"",
+  ""expected_amount"": 1470000
+}",1
+3,"User: 권윤율입니다. 주문하고 싶어요
+Agent: 안녕하세요, 권윤율님. 무엇을 주문하시겠어요?
+User: 주소: 경상남도 창원시 성산구 중문관광로 185 1875동 918호
+Agent: 주소를 알려주셔서 감사합니다. 혹시 성함과 연락처, 그리고 주문하실 상품과 수량을 말씀해주시겠어요?
+User: 연락처: 010-6385-2056
+Agent: 연락처를 알려주셔서 감사합니다. 주문하실 상품과 수량을 말씀해주시겠어요?
+User: 주문: 2번 2개, 1번 2개, 3번(매운맛) 1개, 오늘 배송해주세요.
+Agent: 죄송합니다. 탐라마켓의 공동구매 수령 기간은 12/21(토)~12/23(월)로 지정되어 있습니다. 오늘(12/22) 또는 내일(12/23) 중 수령 가능한 날짜를 선택해주시겠습니까?
+
+그리고 주문하신 상품은 다음과 같습니다.
+* 2번 수제 딸기잼 2병 - 2개
+* 1번 주방칼 2종 세트 - 2개
+* 3번 낙곱새 밀키트(2인) (매운맛) - 1개
+
+이름은 권윤율 님이시죠?
+User: (부재 시 문앞 부탁드려요.)
+Agent: 네, 알겠습니다. 부재 시 문 앞에 놓아드리도록 하겠습니다. 수령 가능하신 날짜를 알려주시면 주문을 완료하겠습니다. 12/22(오늘) 또는 12/23(내일) 중 선택해주세요.",5,0,"{
+  ""items"": [],
+  ""customer_name"": null,
+  ""contact_number"": ""010-6385-2056"",
+  ""delivery_address"": ""경상남도 창원시 성산구 중문관광로 185 1875동 918호"",
+  ""desired_delivery_date"": null,
+  ""special_requests"": ""부재 시 문앞 부탁드려요."",
+  ""payment_info"": null,
+  ""order_date"": ""2025-12-22"",
+  ""expected_amount"": 0
+}","{
+  ""items"": [
+    {
+      ""product_name"": ""1번 주방칼 2종 세트"",
+      ""unit"": ""개"",
+      ""unit_price"": 35700,
+      ""quantity"": 2,
+      ""subtotal"": 71400
+    },
+    {
+      ""product_name"": ""2번 수제 딸기잼 2병""
+      ""unit"": ""개"",
+      ""unit_price"": 10600,
+      ""quantity"": 2,
+      ""subtotal"": 21200
+    },
+    {
+      ""product_name"": ""3번 낙곱새 밀키트(2인) (매운맛)""
+      ""unit"": ""개"",
+      ""unit_price"": 18600,
+      ""quantity"": 1,
+      ""subtotal"": 18600
+    }
+  ],
+  ""customer_name"": ""권윤율"",
+  ""contact_number"": ""010-6385-2056"",
+  ""delivery_address"": ""경상남도 창원시 성산구 중문관광로 185 1875동 918호"",
+  ""desired_delivery_date"": ""2025-12-22"",
+  ""special_requests"": (부재 시 문앞 부탁드려요.),
+  ""payment_info"": null,
+  ""order_date"": ""2025-12-22"",
+  ""expected_amount"": 111200
+}",0.33
